@@ -4,11 +4,10 @@
       <title>Omiki - The Wikipedia Previewer</title>
       <meta http-equiv="content-type" content="text/html;charset=utf-8" />
       <link href="https://fonts.googleapis.com/css?family=GFS+Neohellenic" rel="stylesheet">
-      <link rel="stylesheet" href="http://s.mlcdn.co/animate.css">
       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link href="main.css" rel="stylesheet">
       <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      <link href="main.css" rel="stylesheet">
       <script src="app.js"></script>
     </head>
     <body>
@@ -16,17 +15,18 @@
         <section id="query">
           <h1 class="heading">Ωmiki</h1>
           <h2>The Wikipedia Previewer</h2>
-          <a href="https://en.wikipedia.org/wiki/Special:Random" target="blank"><img class="randomArticle" src="http://vignette1.wikia.nocookie.net/lego/images/b/b2/Omega.png/revision/latest?cb=20120802101839" ></a>
+          <a href="https://en.wikipedia.org/wiki/Special:Random" target="blank"><img class="randomArticle" src="http://vignette1.wikia.nocookie.net/lego/images/b/b2/Omega.png/revision/latest?cb=20120802101839" alt="Omega Symbol" ></a>
           <br>
-          <button class="btn btn-default" id="search-me" type="button">
+          <button class="btn btn-default bottom" id="search-me" type="button">
             <span class="glyphicon glyphicon-search"></span>
           </button>
-          <input id="searchBox">
+          <input class="form-control" id="searchBox">
         </section>
       </div>
       <div class="container bottom">
+        <p class="num-list" id="numList"></p>
         <section class=endList>
-          <ul class="list-unstyled" id="result-list">
+          <ul class="list-unstyled bottom" id="result-list">
             <!--some list items-->
           </ul>
         </section>

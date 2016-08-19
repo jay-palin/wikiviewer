@@ -7,6 +7,11 @@ a {
   color: #EE7600;
 }
 
+a:hover, a:active {
+  color: black;
+  text-decoration: none;
+}
+
 h1 {
   font-size: 10vmin;
   padding: 20px;
@@ -20,51 +25,63 @@ h2 {
 
 h3 {
   font-size: 5vmin;
-  padding: 1vmin;
+  padding-top: 1vmin;
+  padding-left: 1vmin;
 }
 
 p {
   font-size: 3vmin;
-  padding: 2vmin;
+  padding-bottom: 2vmin;
+  padding-left: 2vmin;
 }
 
-#query {
-  margin: 0px;
-
+li {
+  background-color: white;
+  margin: 1%;
+  border-radius: 25px;
 }
 
-#result-list {
+.num-list {
+  padding-top: 2vmin;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.query {
+  margin: 0;
+}
+
+.list-unstyled {
   text-align: left;
   background-color: white;
-  
-
 }
 
-#search-me {
+.btn-default {
+  margin-bottom: 3px;
   border: none;
+  padding: 1px 12px;
+  height: 34px;
 }
 
-#searchBox {
+.form-control {
   margin-bottom: 10vmin;
   border-radius: 5px;
+  width: auto;
+  display: inline-block;
 }
 
 .container-fluid {
-  padding: 0px;
+  padding: 0;
   background-color: white;
 }
 
 .endList {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 13px;
-  margin-right: 13px;
+  margin: 25px 13;
   border-radius: 5px;
 }
 
 .bottom {
-  background-color: #EE7600
-
+  background-color: #EE7600;
 }
 
 .heading:first-letter {
