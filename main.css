@@ -1,4 +1,81 @@
 
-li {
+body {
+  background-color: #EE7600
+ }
+
+a {
+  color: #EE7600;
+}
+
+h1 {
+  font-size: 10vmin;
+  padding: 20px;
+  padding-top: 10vmax;
+}
+
+h2 {
+  font-size: 8vmin;
+  padding: 20px;
+}
+
+h3 {
+  font-size: 5vmin;
+  padding: 1vmin;
+}
+
+p {
+  font-size: 3vmin;
+  padding: 2vmin;
+}
+
+#query {
+  margin: 0px;
+
+}
+
+#result-list {
   text-align: left;
+  background-color: white;
+  
+
+}
+
+#search-me {
+  border: none;
+}
+
+#searchBox {
+  margin-bottom: 10vmin;
+  border-radius: 5px;
+}
+
+.container-fluid {
+  padding: 0px;
+  background-color: white;
+}
+
+.endList {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 13px;
+  margin-right: 13px;
+  border-radius: 5px;
+}
+
+.bottom {
+  background-color: #EE7600
+
+}
+
+.heading:first-letter {
+  font-family: 'GFS Neohellenic', sans-serif;
+}
+
+.randomArticle {
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 100%;
+  max-width: 10vmin;
+  margin: 2vmin;
 }
