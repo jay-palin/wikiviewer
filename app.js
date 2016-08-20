@@ -23,7 +23,7 @@ $(document).ready(function(){
               $("#numList").html("No search reults found.");
             }
             for(var i = 0; i<numResult;i++){ // for every result get each content
-              $("#result-list").append('<li class="resultli"><a href="'+data[3][i]+'" target="_blank"><h3 class="result-header">'+data[1][i]+'</h3></a><p>'+data[2][i]+'</p></li>');
+              $("#result-list").append('<li class="list-entrance"><a href="'+data[3][i]+'" target="_blank"><h3 class="result-header">'+data[1][i]+'</h3></a><p>'+data[2][i]+'</p></li>');
             }
           }
           else {

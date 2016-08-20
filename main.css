@@ -1,4 +1,29 @@
 
+
+@-webkit-keyframes list-entrance {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes list-entrance {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 body {
   background-color: #EE7600
  }
@@ -39,6 +64,15 @@ li {
   background-color: white;
   margin: 1%;
   border-radius: 25px;
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+li.list-entrance {
+  -webkit-animation: list-entrance 300ms 1 ease-in-out forwards;
+  animation: list-entrance 300ms 1 ease-in-out forwards;
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 .num-list {
